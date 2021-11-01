@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+
+@font-face {
+  font-family: "Arabia";
+  src: url("../fuentes/MATURASC.TTF")
+  format("truetype");
+            }
+
+
+            body { background-color: blue;
+              text-align: center;   }
+
+              .letraazul {color:blue;
+                background-color: white;
+                font-size:3vw;
+              }
+              h2 {
+                font-size: 1rem;
+                font-family: "Arabia";
+              }
+              #ColorAmarillo {color: yellow;}
+
+              .conejo {
+                width: 15vw;
+              }
+
+          header {background-color: yellow;
+
+         }
+.pingui {display: none;}
+
+@media (max-width: 575px) {
+.conejo { display:none;}
+
+}
+@media (max-width: 575px) {
+header  { background-color: red;}
+}
+@media (max-width: 768px) {
+.conejo { width: 30vw;}
+
+@media (max-width: 575px) {
+.pingui { display:block;}
+}
+nav {background-color: white;}
+
+section .letraazul {background-color: green;}
+
+aside {background-color: tomato;
+      font-family: 'Stick No Bills', sans-serif;
+      }
+footer {background-color: orange;}
+
+section{ float: left;
+        width: 48%;
+         height:250px;
+         overflow: auto;
+         margin: 1%;
+         border:5px solid red;
+         padding: 5px;
+         box-sizing: border-box;
+       }
+aside {width: 48%;
+        float:left;
+       height:250px;
+       overflow: auto;
+       margin: 1%;
+       border:2px dotted black;
+       box-sizing: border-box;
+      }
+footer {clear: both;}
+
+.iconow {position: fixed;
+         top: 75%;
+        r ight: 1%;
+        }

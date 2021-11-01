@@ -1,0 +1,35 @@
+img {
+  width: 50%;
+
+}
+section {
+  width: 25%;
+  height: 30%;
+  background-color: red;
+}
+
+a:visited {
+  color: red;
+}
+a:hover {
+  background-color: yellow;
+  font-size: 120px;
+  color: black;
+  font-family: cursive;
+  font-weight: 400;
+}
+
+section:hover {
+  width: 100%;
+}
+section::after {
+  content: "Hola mundo";
+}
+button{
+  background-color: red;
+}
+
+button:hover {
+  background-color: yellow;
+}
+form {background-color: blue;}
